@@ -1,0 +1,19 @@
+.cars {
+  table {
+    vertical-align: middle;
+    margin: 0;
+  }
+
+  tbody td:last-child {
+    width: 142px;
+
+    button, a {
+      padding: 0 1rem;
+      font-size: 1.25rem;
+
+      &:not(:last-child) {
+        margin: 0 0.5rem;
+      }
+    }
+  }
+}
